@@ -22,18 +22,7 @@
 </head>
 
 <body class="container">
-    <h1>Welcome to Scales Exercise 3</h1>
-    <p>This exercise challenges you to bring together your D3 skills for defining scales, building charts, and positioning axes. However, the focus is on doing so in a <strong>reusable</strong> way. A static version of the page is already up and running.
-        All you have to do is make it <strong>updatable</strong>. In your <code>js/main.js</code> file, you should complete the following (broad) steps.
-        <div class="instructions">
-            <ul>
-                <li>Write a function to filter down your data to the current selection based on the current <code>sex</code> and <code>type</code></li>
-                <li>Write a function for setting the scales based on the current data selection.</li>
-                <li>Write a function for updating your axis elements (both the axes, and their labels).</li>
-                <li>Write a reusable function to perform your data-join. Within this function you should set your scales, update your axes, and re-render your rectangles.</li>
-                <li>Assign an event handler to your <code>input</code> elements to set the <code>sex</code> and/or <code>type</code>, filter your data, then update your chart.</li>
-            </ul>
-        </div>
+        <h2>Attendance Rates of Top 15 Amusement Parks in North America</h2>
 
         <div class="btn-group">
             <div class="dropdown dropdown-btn">
@@ -42,9 +31,9 @@
                 </button>
                 <ul class="dropdown-menu">
                     <li><a href="#" value="ca" class="state choice" id="ca">California</a></li>
-                    <li><a href="#" value="canada" class="state choice">Canada</a></li>
+                    <!--<li><a href="#" value="canada" class="state choice">Canada</a></li>-->
                     <li><a href="#" value="fl" class="state choice">Florida</a></li>
-                    <li><a href="#" value="oh" class="state choice">Ohio</a></li>
+                    <!--<li><a href="#" value="oh" class="state choice">Ohio</a></li>-->
                     <li class="divider"></li>
                     <li><a href="#" value="all" class="state choice">All</a></li>
                 </ul>
@@ -57,32 +46,9 @@
                     <li><a href="#" value="2012" class="year choice">2012</a></li>
                     <li><a href="#" value="2011" class="year choice">2011</a></li>
                     <li><a href="#" value="2010" class="year choice">2010</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#" value="all" class="year choice">All</a></li>
                 </ul>
             </div>
         </div>
-
-        <!--<div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary">
-		    <input value="male" class="sex" type="radio" name="options" id="option1" autocomplete="off">Male
-		  </label>
-            <label class="btn btn-primary active">
-		    <input value="female" type="radio" class="sex" name="options" id="option2" autocomplete="off" checked>Female
-		  </label>
-        </div>
-
-        <div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary">
-		    <input value = "any" type="radio" name="options" id="option1" autocomplete="off">Any Drinking
-		  </label>
-            <label class="btn btn-primary active">
-		    <input value = "binge" type="radio" name="options" id="option2" autocomplete="off" checked>Binge Drinking
-		  </label>
-        </div>-->
-
-
-        <h2>U.S. State Drinking Patterns in 2012</h2>
 
         <div id="vis"></div>
 </body>

@@ -1,46 +1,46 @@
-theme_park,state,year,attendance
-Magic Kingdom,Florida,2010,16972000
-Disneyland,California,2010,15980000
-Epcot,Florida,2010,10825000
-Disney's Animal Kingdom,Florida,2010,9686000
-Disney's Hollywood Studios,Florida,2010,9603000
-Universal's Islands of Adventure,Florida,2010,5949000
-Disney's Californian Adventure,California,2010,6278000
-Universal Studios Florida,Florida,2010,5925000
-Universal Studios Hollywood,California,2010,5040000
-Seaworld Florida,Florida,2010,5100000
-Seaworld California,California,2010,3800000
-Busch Gardens Tampa Bay,Florida,2010,4200000
-"Canada's Wonderland, Ontario",Canada,2010,3380000
-Knott's Berry Farm,California,2010,3600000
-Cedar Point,Ohio,2010,3051000
-Magic Kingdom,Florida,2011,17142000
-Disneyland,California,2011,16140000
-Epcot,Florida,2011,10825000
-Disney's Animal Kingdom,Florida,2011,9783000
-Disney's Hollywood Studios,Florida,2011,9699000
-Universal's Islands of Adventure,Florida,2011,7674000
-Disney's Californian Adventure,California,2011,6341000
-Universal Studios Florida,Florida,2011,6044000
-Universal Studios Hollywood,California,2011,5141000
-Seaworld Florida,Florida,2011,5202000
-Seaworld California,California,2011,4294000
-Busch Gardens Tampa Bay,Florida,2011,4284000
-"Canada's Wonderland, Ontario",Canada,2011,3481000
-Knott's Berry Farm,California,2011,3654000
-Cedar Point,Ohio,2011,3143000
-Magic Kingdom,Florida,2012,17536000
-Disneyland,California,2012,15963000
-Epcot,Florida,2012,11063000
-Disney's Animal Kingdom,Florida,2012,9998000
-Disney's Hollywood Studios,Florida,2012,9912000
-Universal's Islands of Adventure,Florida,2012,7981000
-Disney's Californian Adventure,California,2012,7775000
-Universal Studios Florida,Florida,2012,6195000
-Universal Studios Hollywood,California,2012,5912000
-Seaworld Florida,Florida,2012,5358000
-Seaworld California,California,2012,4444000
-Busch Gardens Tampa Bay,Florida,2012,4348000
-"Canada's Wonderland, Ontario",Canada,2012,3655000
-Knott's Berry Farm,California,2012,3508000
-Cedar Point,Ohio,2012,3221000
+theme_park,state,year,attendance,photo
+Magic Kingdom,Florida,2010,16972000,magic_kingdom.png
+Disneyland,California,2010,15980000,disneyland.png
+Epcot,Florida,2010,10825000,epcot.png
+Disney's Animal Kingdom,Florida,2010,9686000,animal_kingdom.png
+Disney's Hollywood Studios,Florida,2010,9603000,hollywood_studios.png
+Universal's Islands of Adventure,Florida,2010,5949000,islands_of_adventure.jpg
+Disney's Californian Adventure,California,2010,6278000,ca_adv.png
+Universal Studios Florida,Florida,2010,5925000,univ_fl.png
+Universal Studios Hollywood,California,2010,5040000,univ_ca.jpg
+Seaworld Florida,Florida,2010,5100000,sea_world_fl.jpg
+Seaworld California,California,2010,3800000,seaworld_sd.png
+Busch Gardens Tampa Bay,Florida,2010,4200000,busch.png
+"Canada's Wonderland, Ontario",Canada,2010,3380000,wonderland.png
+Knott's Berry Farm,California,2010,3600000,knotts.png
+Cedar Point,Ohio,2010,3051000,cedar_point.png
+Magic Kingdom,Florida,2011,17142000,magic_kingdom.png
+Disneyland,California,2011,16140000,disneyland.png
+Epcot,Florida,2011,10825000,epcot.png
+Disney's Animal Kingdom,Florida,2011,9783000,animal_kingdom.png
+Disney's Hollywood Studios,Florida,2011,9699000,hollywood_studios.png
+Universal's Islands of Adventure,Florida,2011,7674000,islands_of_adventure.jpg
+Disney's Californian Adventure,California,2011,6341000,ca_adv.png
+Universal Studios Florida,Florida,2011,6044000,univ_fl.png
+Universal Studios Hollywood,California,2011,5141000,univ_ca.jpg
+Seaworld Florida,Florida,2011,5202000,sea_world_fl.jpg
+Seaworld California,California,2011,4294000,seaworld_sd.png
+Busch Gardens Tampa Bay,Florida,2011,4284000,busch.png
+"Canada's Wonderland, Ontario",Canada,2011,3481000,wonderland.png
+Knott's Berry Farm,California,2011,3654000,knotts.png
+Cedar Point,Ohio,2011,3143000,cedar_point.png
+Magic Kingdom,Florida,2012,17536000,magic_kingdom.png
+Disneyland,California,2012,15963000,disneyland.png
+Epcot,Florida,2012,11063000,epcot.png
+Disney's Animal Kingdom,Florida,2012,9998000,animal_kingdom.png
+Disney's Hollywood Studios,Florida,2012,9912000,hollywood_studios.png
+Universal's Islands of Adventure,Florida,2012,7981000,islands_of_adventure.jpg
+Disney's Californian Adventure,California,2012,7775000,ca_adv.png
+Universal Studios Florida,Florida,2012,6195000,univ_fl.png
+Universal Studios Hollywood,California,2012,5912000,univ_ca.jpg
+Seaworld Florida,Florida,2012,5358000,sea_world_fl.jpg
+Seaworld California,California,2012,4444000,seaworld_sd.png
+Busch Gardens Tampa Bay,Florida,2012,4348000,busch.png
+"Canada's Wonderland, Ontario",Canada,2012,3655000,wonderland.png
+Knott's Berry Farm,California,2012,3508000,knotts.png
+Cedar Point,Ohio,2012,3221000,cedar_point.png
