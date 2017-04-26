@@ -21,36 +21,58 @@
     <script src="js/main.js"></script>
 </head>
 
-<body class="container">
-        <h2>Attendance Rates of Top 15 Amusement Parks in North America</h2>
+<body>
+        <header>
+            <div class="jumbotron">
+                <h1>Amusement Parks</h1>
+                <p>Attendance rates of top 15 amusement parks in North America</p>
+            </div>
+        </header>
+        
+        <main class="container">
+            <div class="btn-group">
+                <h4>Select your filter(s):</h4>
+                <div class="dropdown dropdown-btn">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Location
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a value="ca" class="state choice" id="ca">California</a></li>
+                        <!--<li><a href="#" value="canada" class="state choice">Canada</a></li>-->
+                        <li><a value="fl" class="state choice">Florida</a></li>
+                        <!--<li><a href="#" value="oh" class="state choice">Ohio</a></li>-->
+                        <li class="divider"></li>
+                        <li><a value="all" class="state choice">All</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown dropdown-btn">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Year
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a value="2012" class="year choice">2012</a></li>
+                        <li><a value="2011" class="year choice">2011</a></li>
+                        <li><a value="2010" class="year choice">2010</a></li>
+                        <!--<li class="divider"></li>
+                        <li><a value="all" class="year choice">All</a></li>-->
+                    </ul>
+                </div>
+            </div>
 
-        <div class="btn-group">
-            <div class="dropdown dropdown-btn">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">State / Country
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="#" value="ca" class="state choice" id="ca">California</a></li>
-                    <!--<li><a href="#" value="canada" class="state choice">Canada</a></li>-->
-                    <li><a href="#" value="fl" class="state choice">Florida</a></li>
-                    <!--<li><a href="#" value="oh" class="state choice">Ohio</a></li>-->
-                    <li class="divider"></li>
-                    <li><a href="#" value="all" class="state choice">All</a></li>
+            <div id="vis"></div>
+
+            <div id="description">
+                <h3>Visual Layout</h3><br/>
+                <p>
+                    The graph above shows top 15 amusement parks in North America by attendance in 2010, 2011, and 2012 (dataset obtained from <a href="https://tuvalabs.com/datasets/top_15_amusement_parks_in_north_america/activities">here</a>). Each bar represents an amusement park, and the height of the bar represents the number of attendances for that park for that particular year. The different colors represent which state/country the amusement park is located in. The legend for the different colors is only shown when the "All" option is chosen for the "region" filter so to not confuse the viewer. The visual encodings used in this graph are: position along same scale, length, and color. Position along same scale helps the visualization a lot cleaner and more intuitive, and the encoding of length of data helps to proportionately represent the attendance rates onto the graph. In addition, the combination of position along same scale and length helps to compare the attendance rates for each of the amusement parks drawn on the graph.
+                </p>
+                <h3>Controlling Elements</h3><br/>
+                <ul>
+                    <li><b>Location:</b> Although the 15 amusement parks are in 4 logations (California, Florida, Ohio, and Canada), the options only show California, Florida, and All. This is because Ohio and Canada have only one amusement park, and do not have other parks to be compared against. The bars are ordered from greatest attendance to least attendance (from left to right) so that the viewer can easily answer the question, "which amusement park is the most popular in a specific location?" This is also true when "All" is chosen. In this case, not only does the visualization show which amusement park is most popular in North America (rank 1 through 15 from left to right), it also shows which state/country the park is located in. With the heavier concentration of green bars on the graph, the viewer can deduce that many of the top 15 amusement parks are located in Florida.</li>
+                    <li><b>Year:</b> The obtained dataset contains data from 2010 to 2012. Selecting each of the year answers the question, "what were the popularity of the top amusement parks in a specific year?" As the option above, the bars are ordered from greatest attendance to least attendance so that the viewer can easily deduce which park was most popular in a certain year.</li>
                 </ul>
             </div>
-            <div class="dropdown dropdown-btn">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Year
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="#" value="2012" class="year choice">2012</a></li>
-                    <li><a href="#" value="2011" class="year choice">2011</a></li>
-                    <li><a href="#" value="2010" class="year choice">2010</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="vis"></div>
+        </main>
 </body>
 
 </html>
